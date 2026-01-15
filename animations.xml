@@ -1012,11 +1012,5 @@
       </sequence>
     </animation>
   </animations>
-  <childs>
-    <child animationid="1">
-      <x />
-      <y />
-      <next>6</next>
-    </child>
-  </childs>
+  <childs />
 </animations>
