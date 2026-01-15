@@ -63,6 +63,7 @@
         <next probability="10" only="none">2</next>
         <next probability="20" only="none">5</next>
         <next probability="10" only="none">17</next>
+        <next probability="10" only="none">26</next>
         <action>none</action>
       </sequence>
       <border>
@@ -151,6 +152,7 @@
         <next probability="10" only="none">5</next>
         <next probability="60" only="none">4</next>
         <next probability="10" only="none">2</next>
+        <next probability="10" only="none">26</next>
         <action>none</action>
       </sequence>
       <border>
@@ -309,6 +311,7 @@
         <next probability="10" only="none">13</next>
         <next probability="10" only="none">11</next>
         <next probability="10" only="none">19</next>
+        <next probability="10" only="none">36</next>
         <action>none</action>
       </sequence>
       <border>
@@ -339,6 +342,7 @@
         <next probability="20" only="none">10</next>
         <next probability="10" only="none">12</next>
         <next probability="10" only="none">13</next>
+        <next probability="10" only="none">36</next>
         <action>flip</action>
       </sequence>
     </animation>
@@ -388,6 +392,7 @@
         <frame>94</frame>
         <next probability="50" only="none">10</next>
         <next probability="10" only="none">14</next>
+        <next probability="10" only="none">36</next>
         <action>none</action>
       </sequence>
     </animation>
@@ -438,30 +443,6 @@
         <frame>102</frame>
         <next probability="60" only="none">15</next>
         <next probability="40" only="none">14</next>
-        <action>none</action>
-      </sequence>
-    </animation>
-    <animation id="16">
-      <name>dragbb</name>
-      <start>
-        <x>0</x>
-        <y>0</y>
-        <offsety>0</offsety>
-        <opacity>1</opacity>
-        <interval>150</interval>
-      </start>
-      <end>
-        <x>0</x>
-        <y>0</y>
-        <offsety>0</offsety>
-        <opacity>1</opacity>
-        <interval>150</interval>
-      </end>
-      <sequence repeatfrom="0" repeat="0">
-        <frame>114</frame>
-        <frame>115</frame>
-        <frame>114</frame>
-        <frame>116</frame>
         <action>none</action>
       </sequence>
     </animation>
@@ -602,6 +583,7 @@
         <next probability="10" only="none">21</next>
         <next probability="20" only="none">20</next>
         <next probability="10" only="none">31</next>
+        <next probability="15" only="none">37</next>
         <action>none</action>
       </sequence>
       <border>
@@ -1030,5 +1012,11 @@
       </sequence>
     </animation>
   </animations>
-  <childs />
+  <childs>
+    <child animationid="1">
+      <x />
+      <y />
+      <next>6</next>
+    </child>
+  </childs>
 </animations>
